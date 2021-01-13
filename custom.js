@@ -1,13 +1,3 @@
-
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<link href="/css/tabulator.min.css" rel="stylesheet">
-	</head>
-	<body>
-		<div id="example-table"></div>
-        <script type="text/javascript" src="/js/tabulator.min.js"></script>
-        <script type="text/javascript">
 	//sample data
 	var tabledata = [
 		{id:1, name:"Oli Bob", age:"12", col:"red", dob:"12/08/2017"},
@@ -31,6 +21,3 @@
 	    	alert("Row " + row.getIndex() + " Clicked!!!!");
 	    },
 	});
-</script>
-	</body>
-</html>
